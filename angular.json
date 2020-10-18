@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "recipe-app-with-angular"
+    }
+  },
+  "defaultProject": "recipe-app-with-angular",
+  "cli": {
+    "analytics": "c5462c82-3cae-4a6e-b148-5948a315116e"
+  }
 }
