@@ -1,5 +1,13 @@
-<div class="row no-gutters">
-    <div class="col-md-10">
+<div class="row no-gutters mt-3">
+    <div class="col-md-8 offset-md-2">
         <app-shopping-list-edit></app-shopping-list-edit>
+
+        <hr>
+
+        <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action" *ngFor="let ingredient of ingredients">
+                {{ ingredient.name }} ({{ ingredient.amount }})
+            </a>
+        </div>
     </div>
 </div>
